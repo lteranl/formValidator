@@ -3,7 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Form Validator</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <form id="form" class="form">
+        <h2>Register With Us</h2>
+        <div class="form-control">
+          <label class="username">Username</label>
+          <input type="text" class="username" placeholder="Enter username" />
+          <small>Error Message</small>
+        </div>
+        <div class="form-control">
+          <label class="email">Email</label>
+          <input type="text" class="email" placeholder="Enter email" />
+          <small>Error Message</small>
+        </div>
+        <div class="form-control">
+          <label class="password">Password</label>
+          <input
+            type="password"
+            class="password"
+            placeholder="Enter password"
+          />
+          <small>Error Message</small>
+        </div>
+        <div class="form-control">
+          <label class="password2">Confirm Password</label>
+          <input
+            type="password"
+            class="password2"
+            placeholder="Enter password again"
+          />
+          <small>Error Message</small>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
 </html>
