@@ -11,29 +11,25 @@
       <form id="form" class="form">
         <h2>Register With Us</h2>
         <div class="form-control">
-          <label class="username">Username</label>
-          <input type="text" class="username" placeholder="Enter username" />
+          <label for="username">Username</label>
+          <input type="text" id="username" placeholder="Enter username" />
           <small>Error Message</small>
         </div>
         <div class="form-control">
-          <label class="email">Email</label>
-          <input type="text" class="email" placeholder="Enter email" />
+          <label for="email">Email</label>
+          <input type="text" id="email" placeholder="Enter email" />
           <small>Error Message</small>
         </div>
         <div class="form-control">
-          <label class="password">Password</label>
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="Enter password" />
+          <small>Error Message</small>
+        </div>
+        <div class="form-control">
+          <label for="password2">Confirm Password</label>
           <input
             type="password"
-            class="password"
-            placeholder="Enter password"
-          />
-          <small>Error Message</small>
-        </div>
-        <div class="form-control">
-          <label class="password2">Confirm Password</label>
-          <input
-            type="password"
-            class="password2"
+            id="password2"
             placeholder="Enter password again"
           />
           <small>Error Message</small>
@@ -42,6 +38,6 @@
       </form>
     </div>
 
-    <script src="js/script.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
   </body>
 </html>
