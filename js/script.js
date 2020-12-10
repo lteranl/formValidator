@@ -9,7 +9,7 @@ function showError(input, message){
     // getting inputs parent element (form-control)
     const formControl = input.parentElement;
     // changing the class name in order to display the error message
-    formControl.className = "form-control error";
+    formControl.className = "form-control error"; // red border
     const small = formControl.querySelector("small");
     small.innerText = message;
 
@@ -19,7 +19,7 @@ function showSuccess(input) {
     // getting inputs parent element (form-control)
     const formControl = input.parentElement;
     // changing the class name in order to display the success message
-    formControl.className = "form-control success";
+    formControl.className = "form-control success"; // green border
 }
 
 // check email is valid 
@@ -27,6 +27,7 @@ function isValidEmail(email){
     const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     return re.test(String(email).toLowerCase());    
 }
+
 // Event listeners
 form.addEventListener('submit', function(e){
     e.preventDefault();
