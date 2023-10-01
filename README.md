@@ -13,4 +13,5 @@ checkLength() to check min and max length
 checkEmail() to validate email with regex
 checkPasswordsMatch() to match confirm password
 
-https://jjesusteran-mori.github.io/formValidator/
+https://lteranl.github.io/formValidator/
+
